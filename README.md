@@ -51,3 +51,11 @@ storage/app/places.json
 ]
 
 php artisan serve
+
+endpoints:
+
+GET /api/places
+GET /api/places/{id}
+POST /api/places/{id}/edit
+POST /api/places/{id}/been-there
+DELETE /api/places/{id}
